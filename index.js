@@ -110,6 +110,7 @@ function Device(gamertag, opts, driver) {
   this.V = 0;
   this.D = 14;
   this.G = 'xboxlive'+gamertag;
+  this.name = 'Presence - Xbox Live Friends';
 
   opts.presence = opts.presence || {};
   presence = opts.presence;
