@@ -1,0 +1,17 @@
+{
+  "name": "ninja-presence-xbox-live",
+  "version": "0.0.1",
+  "description": "A NinjaBlocks presence driver for your Xbox Live friends",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Elliot Shepherd",
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "~1.4.4",
+    "ninja-presence-base": "git://github.com/elliots/ninja-presence-base",
+    "request-json": "~0.3.6"
+  }
+}
